@@ -13,6 +13,16 @@
 		5E8FEC3E1B17B69000A31B1A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E8FEC3D1B17B69000A31B1A /* Images.xcassets */; };
 		5E8FEC411B17B69000A31B1A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5E8FEC3F1B17B69000A31B1A /* LaunchScreen.xib */; };
 		5E8FEC4D1B17B69100A31B1A /* Combo_HWTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E8FEC4C1B17B69100A31B1A /* Combo_HWTests.swift */; };
+		5E8FEC571B17B71500A31B1A /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E8FEC561B17B71500A31B1A /* TableViewCell.swift */; };
+		5E8FEC591B17BADF00A31B1A /* TVViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E8FEC581B17BADF00A31B1A /* TVViewController.swift */; };
+		5E8FEC5B1B17BCBE00A31B1A /* TVTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E8FEC5A1B17BCBE00A31B1A /* TVTableViewCell.swift */; };
+		5E8FEC5D1B17C81400A31B1A /* CVViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E8FEC5C1B17C81400A31B1A /* CVViewController.swift */; };
+		5E8FEC5F1B17C82900A31B1A /* CVCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E8FEC5E1B17C82900A31B1A /* CVCollectionViewCell.swift */; };
+		5E8FEC611B17D33C00A31B1A /* MyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E8FEC601B17D33C00A31B1A /* MyView.swift */; };
+		5E8FEC631B17E6DF00A31B1A /* PVViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E8FEC621B17E6DF00A31B1A /* PVViewController.swift */; };
+		5E8FEC651B18355100A31B1A /* DPViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E8FEC641B18355100A31B1A /* DPViewController.swift */; };
+		5E8FEC671B18F36A00A31B1A /* TFViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E8FEC661B18F36A00A31B1A /* TFViewController.swift */; };
+		5E8FEC691B18F83600A31B1A /* SliderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E8FEC681B18F83600A31B1A /* SliderViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +46,16 @@
 		5E8FEC461B17B69100A31B1A /* Combo_HWTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Combo_HWTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E8FEC4B1B17B69100A31B1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5E8FEC4C1B17B69100A31B1A /* Combo_HWTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Combo_HWTests.swift; sourceTree = "<group>"; };
+		5E8FEC561B17B71500A31B1A /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		5E8FEC581B17BADF00A31B1A /* TVViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TVViewController.swift; sourceTree = "<group>"; };
+		5E8FEC5A1B17BCBE00A31B1A /* TVTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TVTableViewCell.swift; sourceTree = "<group>"; };
+		5E8FEC5C1B17C81400A31B1A /* CVViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CVViewController.swift; sourceTree = "<group>"; };
+		5E8FEC5E1B17C82900A31B1A /* CVCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CVCollectionViewCell.swift; sourceTree = "<group>"; };
+		5E8FEC601B17D33C00A31B1A /* MyView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyView.swift; sourceTree = "<group>"; };
+		5E8FEC621B17E6DF00A31B1A /* PVViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PVViewController.swift; sourceTree = "<group>"; };
+		5E8FEC641B18355100A31B1A /* DPViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DPViewController.swift; sourceTree = "<group>"; };
+		5E8FEC661B18F36A00A31B1A /* TFViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TFViewController.swift; sourceTree = "<group>"; };
+		5E8FEC681B18F83600A31B1A /* SliderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SliderViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,7 +99,17 @@
 			children = (
 				5E8FEC361B17B69000A31B1A /* AppDelegate.swift */,
 				5E8FEC381B17B69000A31B1A /* ViewController.swift */,
+				5E8FEC561B17B71500A31B1A /* TableViewCell.swift */,
+				5E8FEC601B17D33C00A31B1A /* MyView.swift */,
+				5E8FEC5C1B17C81400A31B1A /* CVViewController.swift */,
+				5E8FEC5E1B17C82900A31B1A /* CVCollectionViewCell.swift */,
+				5E8FEC621B17E6DF00A31B1A /* PVViewController.swift */,
+				5E8FEC641B18355100A31B1A /* DPViewController.swift */,
+				5E8FEC661B18F36A00A31B1A /* TFViewController.swift */,
+				5E8FEC681B18F83600A31B1A /* SliderViewController.swift */,
 				5E8FEC3A1B17B69000A31B1A /* Main.storyboard */,
+				5E8FEC581B17BADF00A31B1A /* TVViewController.swift */,
+				5E8FEC5A1B17BCBE00A31B1A /* TVTableViewCell.swift */,
 				5E8FEC3D1B17B69000A31B1A /* Images.xcassets */,
 				5E8FEC3F1B17B69000A31B1A /* LaunchScreen.xib */,
 				5E8FEC341B17B69000A31B1A /* Supporting Files */,
@@ -212,7 +242,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E8FEC611B17D33C00A31B1A /* MyView.swift in Sources */,
+				5E8FEC5F1B17C82900A31B1A /* CVCollectionViewCell.swift in Sources */,
+				5E8FEC651B18355100A31B1A /* DPViewController.swift in Sources */,
+				5E8FEC691B18F83600A31B1A /* SliderViewController.swift in Sources */,
+				5E8FEC571B17B71500A31B1A /* TableViewCell.swift in Sources */,
+				5E8FEC5D1B17C81400A31B1A /* CVViewController.swift in Sources */,
 				5E8FEC391B17B69000A31B1A /* ViewController.swift in Sources */,
+				5E8FEC671B18F36A00A31B1A /* TFViewController.swift in Sources */,
+				5E8FEC5B1B17BCBE00A31B1A /* TVTableViewCell.swift in Sources */,
+				5E8FEC591B17BADF00A31B1A /* TVViewController.swift in Sources */,
+				5E8FEC631B17E6DF00A31B1A /* PVViewController.swift in Sources */,
 				5E8FEC371B17B69000A31B1A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
